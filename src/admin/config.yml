@@ -9,7 +9,7 @@ public_folder: "/uploads"
 collections:
   - name: "post"
     label: "Posts"
-    folder: "../../content/posts"
+    folder: "/content/posts"
     create: true
     slug: "{{slug}}"
     fields:
