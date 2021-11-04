@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: joaosilvabefore/blogbefore
+  branch: main
 
 media_folder: "static/uploads"
 public_folder: "/uploads"
@@ -8,7 +9,7 @@ public_folder: "/uploads"
 collections:
   - name: "post"
     label: "Posts"
-    folder: "content/posts"
+    folder: "../../content/posts"
     create: true
     slug: "{{slug}}"
     fields:
